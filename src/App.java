@@ -19,5 +19,12 @@ public class App {
         for (Integer number : numbers) {
             System.out.println(number);
         }
+        System.out.println("--------------------");
+        System.out.println("New way");
+        System.out.println("names:");
+        names.forEach(name -> System.out.println(name));
+        System.out.println("--------------------");
+        System.out.println("numbers:");
+        numbers.forEach(number -> System.out.println(number));
     }
 }
