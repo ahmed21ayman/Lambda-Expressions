@@ -26,5 +26,12 @@ public class App {
         System.out.println("--------------------");
         System.out.println("numbers:");
         numbers.forEach(number -> System.out.println(number));
+        System.out.println("--------------------");
+        System.out.println("print Multiple Statements");
+        System.out.println("try on names");
+        names.forEach(name -> {
+            System.out.print("we have : ");
+            System.out.println(name);
+        });
     }
 }
